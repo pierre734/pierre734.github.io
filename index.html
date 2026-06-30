@@ -1,113 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pierre | Full Stack & AI Developer</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pierre Blaireau | AI Engineer Portfolio</title>
 
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #0f172a;
-            color: white;
-            text-align: center;
-        }
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #050816;
+        color: white;
+    }
 
-        header {
-            padding: 60px 20px;
-        }
+    header {
+        text-align: center;
+        padding: 110px 20px;
+        background: radial-gradient(circle at top, #1e3a8a, #050816);
+    }
 
-        h1 {
-            font-size: 40px;
-            color: #38bdf8;
-        }
+    header h1 {
+        font-size: 48px;
+        color: #38bdf8;
+        margin-bottom: 10px;
+    }
 
-        p {
-            font-size: 18px;
-            color: #cbd5e1;
-        }
+    header p {
+        color: #cbd5e1;
+        margin: 6px 0;
+    }
 
-        .section {
-            padding: 40px 20px;
-        }
+    .tag {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 6px 12px;
+        background: #1e3a8a;
+        border-radius: 20px;
+        font-size: 12px;
+    }
 
-        .card {
-            background: #1e293b;
-            margin: 15px auto;
-            padding: 20px;
-            width: 80%;
-            border-radius: 10px;
-        }
+    .container {
+        width: 90%;
+        max-width: 1050px;
+        margin: auto;
+    }
 
-        a {
-            color: #38bdf8;
-            text-decoration: none;
-        }
+    section {
+        padding: 55px 0;
+    }
 
-        footer {
-            padding: 20px;
-            font-size: 14px;
-            color: #94a3b8;
-        }
-    </style>
+    h2 {
+        color: #38bdf8;
+        border-left: 4px solid #1e3a8a;
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        background: #0f172a;
+        padding: 20px;
+        border-radius: 12px;
+        margin-bottom: 15px;
+        transition: 0.3s;
+    }
+
+    .card:hover {
+        transform: translateY(-6px);
+        background: #111c33;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 15px;
+    }
+
+    .badge {
+        display: inline-block;
+        background: #1e3a8a;
+        padding: 6px 12px;
+        border-radius: 20px;
+        font-size: 12px;
+        margin: 4px;
+    }
+
+    a {
+        color: #38bdf8;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    footer {
+        text-align: center;
+        padding: 30px;
+        background: #050816;
+        color: #94a3b8;
+    }
+</style>
+
 </head>
 
 <body>
 
 <header>
     <h1>Pierre Blaireau</h1>
-    <p>Aspiring Full Stack & AI Developer</p>
-    <p>Python • JavaScript • Web Development • Artificial Intelligence</p>
+    <p>AI Engineer in Progress | Full Stack Developer</p>
+    <p>Building intelligent systems with Python, Machine Learning & Web Technologies</p>
+
+    <span class="tag">AI Engineering</span>
+    <span class="tag">Python Developer</span>
+    <span class="tag">Problem Solver</span>
+    <span class="tag">Future ML Engineer</span>
 </header>
 
-<div class="section">
+<div class="container">
 
+<!-- ABOUT -->
+<section>
     <h2>About Me</h2>
     <div class="card">
-        I am a self-taught developer focused on building real-world projects in web development, Python programming, and artificial intelligence.
+        I am a self-taught aspiring AI Engineer from Cameroon focused on building intelligent systems using Python, web technologies, and automation.
+
+        My goal is to master Artificial Intelligence, algorithms, and software engineering to create real-world impactful solutions.
     </div>
+</section>
 
-</div>
-
-<div class="section">
-
-    <h2>Projects</h2>
-
+<!-- SKILLS -->
+<section>
+    <h2>Technical Skills</h2>
     <div class="card">
-        <h3>To-Do List Manager</h3>
-        <a href="https://github.com/Pierre734/python-TO-DO-LIST-MANAGER">GitHub Link</a>
+        <span class="badge">Python</span>
+        <span class="badge">JavaScript</span>
+        <span class="badge">HTML/CSS</span>
+        <span class="badge">Git & GitHub</span>
+        <span class="badge">Problem Solving</span>
+        <span class="badge">AI Fundamentals</span>
+        <span class="badge">Automation</span>
+        <span class="badge">Web Development</span>
     </div>
+</section>
 
+<!-- PROJECTS -->
+<section>
+    <h2>Engineering Projects</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>Task Automation System</h3>
+            <p>Python productivity system for task management</p>
+            <a href="https://github.com/Pierre734/python-TO-DO-LIST-MANAGER">View Project</a>
+        </div>
+
+        <div class="card">
+            <h3>Contact Data Manager</h3>
+            <p>Structured file-based data management system</p>
+            <a href="https://github.com/Pierre734/python-contacts-files">View Project</a>
+        </div>
+
+        <div class="card">
+            <h3>File Processing Engine</h3>
+            <p>Automated file handling system built with Python</p>
+            <a href="https://github.com/Pierre734/python-file-manager">View Project</a>
+        </div>
+
+        <div class="card">
+            <h3>Logic Game Engine</h3>
+            <p>Rule-based game system using Python logic</p>
+            <a href="https://github.com/Pierre734/PROJET_PIERRE_FEUILLE_CISEAUX">View Project</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- LEARNING -->
+<section>
+    <h2>Current Focus</h2>
     <div class="card">
-        <h3>Contacts File Manager</h3>
-        <a href="https://github.com/Pierre734/python-contacts-files">GitHub Link</a>
+        • Machine Learning fundamentals  
+        • Data structures & algorithms  
+        • AI system design principles  
+        • Advanced Python development  
+        • Real-world project building  
     </div>
+</section>
 
+<!-- YOUTUBE -->
+<section>
+    <h2>Content & YouTube</h2>
     <div class="card">
-        <h3>File Manager</h3>
-        <a href="https://github.com/Pierre734/python-file-manager">GitHub Link</a>
+        I document my journey in programming, AI learning, and project development.
+
+        <br><br>
+        ▶️ Channel: <a href="https://www.youtube.com/@pierreblaireau">@pierreblaireau</a>
     </div>
+</section>
 
-    <div class="card">
-        <h3>Rock Paper Scissors</h3>
-        <a href="https://github.com/Pierre734/PROJET_PIERRE_FEUILLE_CISEAUX">GitHub Link</a>
-    </div>
-
-</div>
-
-<div class="section">
-
+<!-- CONTACT -->
+<section>
     <h2>Contact</h2>
     <div class="card">
-        <p>GitHub: <a href="https://github.com/Pierre734">github.com/Pierre734</a></p>
-        <p>LinkedIn: Add your link here</p>
+        📧 Email: <a href="mailto:ivanlemani230@gmail.com">ivanlemani230@gmail.com</a><br><br>
+
+        🔗 LinkedIn: <a href="https://www.linkedin.com/in/pierre734">linkedin.com/in/pierre734</a><br><br>
+
+        💻 GitHub: <a href="https://github.com/Pierre734">github.com/Pierre734</a><br><br>
+
+        📱 WhatsApp: <a href="https://wa.me/237650573519">Contact WhatsApp</a>
     </div>
+</section>
 
 </div>
 
 <footer>
-    © 2026 Pierre | Portfolio
+    © 2026 Pierre Blaireau | AI Engineering Portfolio
 </footer>
 
 </body>
